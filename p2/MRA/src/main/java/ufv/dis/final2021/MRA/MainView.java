@@ -32,9 +32,9 @@ public class MainView extends VerticalLayout {
     }
     void modalMostarInto(IpsBBDD repo){
         Dialog dialog = new Dialog();
-        Long ada= Long.valueOf(342423443);
+        //Long ada= Long.valueOf(342423443);
         //repo.findByIp_from(ada);
-        dialog.add(new Text("ad"));
+        dialog.add(new Text("Aqui mostraria la informacionde la base de datos"));
         dialog.open();
     }
     public static Long Dot2LongIP(String dottedIP) {
