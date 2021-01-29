@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class IPS {
+public class Ipsclase {
 
     @Id
     @GeneratedValue
@@ -38,10 +38,10 @@ public class IPS {
     @Column(length=8)
     private String time_zone;
 
-    protected IPS() {
+    protected Ipsclase() {
     }
 
-    public IPS(Long ip_from,Long ip_to, String country_code,String country_name,String region_name,String city_name,Double latitude,Double longitude,String zip_code,String time_zone) {
+    public Ipsclase(Long ip_from, Long ip_to, String country_code, String country_name, String region_name, String city_name, Double latitude, Double longitude, String zip_code, String time_zone) {
     this.ip_from=ip_from;
     this.ip_to=ip_to;
     this.country_code=country_code;
@@ -53,7 +53,6 @@ public class IPS {
     this.zip_code=zip_code;
     this.time_zone=time_zone;
     }
-
 
 
 }
