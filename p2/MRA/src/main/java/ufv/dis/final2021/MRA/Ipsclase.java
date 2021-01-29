@@ -54,5 +54,16 @@ public class Ipsclase {
     this.time_zone=time_zone;
     }
 
-
+    public Long getIp_from() {
+        return this.ip_from;
+    }
+    public Long getIp_to() {
+        return this.ip_to;
+    }
+    public void setIp_from(Long a) {
+        this.ip_to=a;
+    }
+    public void setIp_to(Long a) {
+        this.ip_to=a;
+    }
 }
